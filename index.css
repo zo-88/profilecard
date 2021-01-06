@@ -74,10 +74,19 @@ section{
 }
 .card .numbers > span{
     padding:5%;
+    margin-left: 1rem;
 }
 .card .info{
-    margin:0 0 1em 0;
+    margin:0 0.5rem 1em 0.5rem;
     text-align: center;
+    width:100%;
+   
+}
+.card .info > span{
+    margin: 0 1.5rem 2rem 2rem;
+    padding:2%;
+    color:rgb(158, 154, 154);
+    
 }
 
 
