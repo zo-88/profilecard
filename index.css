@@ -41,24 +41,39 @@ section{
 
 }
 .card .profile-img{
-    width:100px;
-    height:100px;
+    width:120px;
+    height:120px;
     object-fit: cover;
     border-radius: 50%;
     margin-top: -3em;
     z-index: 99;
-    /* border: 0.2rem solid white; */
+
+    border: 0.5rem solid white;
 }
 .card h3{
-    margin:1em;
+    margin-top:1em;
+    margin-bottom: 0.2em;
+}
+.card .age{
+    color:rgb(158, 154, 154);
+    font-weight:lighter;
 }
 
 .card .location{
-    margin:1em;
+    
+    color:rgb(158, 154, 154);
 }
 .card .numbers{
     margin:1em 0 0.5em 0;
     text-align: center;
+    border-top: 2px solid lightgray;
+    width:100%;
+    padding:15px 5px 0 5px;
+    font-weight:bold; 
+    font-size: 25px; 
+}
+.card .numbers > span{
+    padding:5%;
 }
 .card .info{
     margin:0 0 1em 0;
